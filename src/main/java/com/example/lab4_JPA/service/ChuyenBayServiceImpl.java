@@ -22,6 +22,26 @@ public class ChuyenBayServiceImpl implements ChuyenBayService {
 		return chuyenBayRepository.findByGaDen(gaDen);
 	}
 
+	//4
+	@Override
+	public List<ChuyenBay> findByDoDaiDBNhoHon10000VaLoHon8000() {
+		// TODO Auto-generated method stub
+		return chuyenBayRepository.findByDoDaiDBNhoHon10000VaLoHon8000();
+	}
 	
+	//5
+	@Override
+	public List<ChuyenBay> findBySGtoBMT() {
+		// TODO Auto-generated method stub
+		return chuyenBayRepository.findBySGtoBMT();
+	}
+
+	//6
+	@Override
+	public int sumCBFromSG() {
+		// TODO Auto-generated method stub
+		return chuyenBayRepository.sumCBFromSG();
+	}
+
 	
 }

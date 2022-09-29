@@ -13,6 +13,8 @@ public class NhanVienServiceImpl implements NhanVienService {
 	@Autowired
 	private NhanVienRepository nhanVienRespository;
 
+	
+	//3
 	@Override
 	public List<NhanVien> findByLuongNhoHon10000() {
 		// TODO Auto-generated method stub
