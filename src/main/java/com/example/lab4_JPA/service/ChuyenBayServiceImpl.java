@@ -14,6 +14,8 @@ public class ChuyenBayServiceImpl implements ChuyenBayService {
 	@Autowired 
 	private ChuyenBayRepository chuyenBayRepository;
 	
+	
+	//1
 	@Override
 	public List<ChuyenBay> findByGaDen(String gaDen) {
 		// TODO Auto-generated method stub
